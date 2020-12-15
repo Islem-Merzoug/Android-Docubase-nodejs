@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Docubase</string>
+    <string name="error_message_email">Veuillez introduire un email valide !</string>
+    <string name="error_message_password">Veuillez introduire un mot de passe valide !</string>
+    <string name="error_valid_email_password">Vos identifiants sont invalides !</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="catgorie">
+        <item>Catégorie</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="catgorie_affichage">
+        <item>Catégorie</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

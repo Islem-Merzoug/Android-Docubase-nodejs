@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_graph"
+    app:startDestination="@id/addDocu">
+
+    <fragment
+        android:id="@+id/addDocu"
+        android:name="com.findriver.docubase.addDocu"
+        android:label="fragment_add_affichage"
+        tools:layout="@layout/fragment_add_docu" />
+    <fragment
+        android:id="@+id/disconnect"
+        android:name="com.findriver.docubase.disconnect"
+        android:label="fragment_disconnect"
+        tools:layout="@layout/fragment_disconnect" />
+    <fragment
+        android:id="@+id/addAffiche"
+        android:name="com.findriver.docubase.addAffichage"
+        android:label="fragment_add_affichage"
+        tools:layout="@layout/fragment_add_affichage" />
+</navigation>

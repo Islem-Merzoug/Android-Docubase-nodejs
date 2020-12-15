@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addDocu"
+        android:icon="@drawable/ic_add_document"
+        android:title="Document" />
+    <item android:title="Affichage" android:id="@+id/addAffiche" android:icon="@drawable/ic_add_affichage" />
+    <item android:title="Disconnect" android:id="@+id/disconnect" android:icon="@drawable/ic_logout" />
+</menu>
